@@ -1,0 +1,15 @@
+Jeu du dé:
+Algorithme
+
+TANT QUE scoreTotal >= 100 ALORS
+	Joueur1 lance le dé
+	SI resultat = 1 OU qu'il appuie sur "HOLD" ALORS
+		Joueur2 lance le dé
+		res_current = 0
+	SINON 
+		res_global = res_global + res_current
+	
+	
+SI new_game === true ALORS
+	res_current = 0
+	res_global = 0

@@ -1,0 +1,35 @@
+body{
+    background-color: lightgray;
+}
+
+.border {
+    background-color: rgb(223, 51, 51);
+    width: 150px;
+    height: 100px;
+    text-align: center;
+    padding: 5px;
+}
+
+.score {
+    color: white;
+    font-size: 30px;
+}
+
+.col {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+}
+.score_global {
+    color: red;
+    font-size: 50px;
+    padding-left: 15px;
+    text-align: center;
+}
+
+button {
+    margin-bottom: 5px;
+}
+
+
